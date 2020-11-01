@@ -4,10 +4,10 @@ import './App.css';
 
 function App() {
     return (
-        <div className="App">
+        <div className="app">
           <Layout>
-            <Layout.Header>Nick's Raspberry Pi App</Layout.Header>
-            <Layout.Content>The Apps Will Go Here</Layout.Content>
+            <Layout.Header className="header">Nick's Raspberry Pi App</Layout.Header>
+            <Layout.Content className="content">The Apps Will Go Here</Layout.Content>
             <Layout.Footer>Created By Nick Chouard ©2020</Layout.Footer>
           </Layout>
         </div>
